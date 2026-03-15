@@ -11,6 +11,7 @@ Basic Python concepts and practice programs:
 - tuples
 - strings
 - functions
+- file handlib
 
 ### problem_solving
 Small problem-solving exercises such as:
