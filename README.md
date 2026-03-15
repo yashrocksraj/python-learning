@@ -22,8 +22,12 @@ Small problem-solving exercises such as:
 ### dsa (coming soon)
 Data structures and algorithms practice.
 
-### projects (coming soon)
-Backend development projects using Python.
+### Projects 
+Project Allocation System
+Backend REST API using Flask
+
+link:
+https://github.com/yashrocksraj/project-allocation-system
 
 ## Goal
 
