@@ -1,7 +1,7 @@
-# Problem 1
-# Create a dictionary called d that keeps track of all the characters in the string placement and 
-# notes how many times each character was seen. 
-# Then, find the key with the lowest value in this dictionary and assign that key to key_with_min_value.
+# # Problem 1
+# # Create a dictionary called d that keeps track of all the characters in the string placement and 
+# # notes how many times each character was seen. 
+# # Then, find the key with the lowest value in this dictionary and assign that key to key_with_min_value.
 
 # placement = "Beaches are cool places to visit in spring however the Mackinaw Bridge is near. Most people visit Mackinaw later since the island is a cool place to explore."
 # d ={}
@@ -14,12 +14,12 @@
 #         key_with_min_value = key
 # print(keys)
 # print(key_with_min_value)
-#------------------#---------------------#
+# #------------------#---------------------#
 
-# Problem 2
-# Create a dictionary called lett_d that keeps track of all of the characters in the string product
-# and notes how many times each character was seen. 
-# Then, find the key with the highest value in this dictionary and assign that key to key_with_max_value.
+# # Problem 2
+# # Create a dictionary called lett_d that keeps track of all of the characters in the string product
+# # and notes how many times each character was seen. 
+# # Then, find the key with the highest value in this dictionary and assign that key to key_with_max_value.
 
 # product = "iphone and android phones"
 # lett_d ={}
@@ -34,24 +34,43 @@
 #         max_value = key
 # print(max_value)            
 # print(lett_d[max_value])
+# #------------------#---------------------#
+
+# # Problem 3
+# # Write a program that finds the most used 7 letter word in Scarlet.txt
+
+# f = open('python_basics/program_files/scarlet.txt', 'r')
+# sentence = f.read().split()
+# #print(sentence)
+# words = {}
+# for word in sentence:
+#     if word not in words:
+#         words[word] = 0
+#     words[word] = words[word] + 1
+# max_word = ''
+# max_count = 0
+# for key in words:
+#     if len(key) == 7:
+#         if words[key] > max_count:
+#             max_count = words[key]
+#             max_word = key
+# print(max_count,max_word)
 #------------------#---------------------#
 
-# Problem 3
-# Write a program that finds the most used 7 letter word in Scarlet.txt
+# Problem 4 
+# Write a program that allows the user to enter a string. 
+# It then prints a table of the letters of the alphabet in alphabetical order
+# which occur in the string together with the number of times each letter occurs. 
+# Case should be ignored.
+sentence = str(input("Please enter a sentence:").lower())
+d = {}
+for ch in sentence:
+    if ch not in d:
+        d[ch] = 0
+    d[ch] = d[ch] + 1
+for ch in sorted(d):
+    print(ch,d[ch])
+           
+#------------------#---------------------#    
 
-f = open('python_basics/program_files/scarlet.txt', 'r')
-sentence = f.read().split()
-#print(sentence)
-words = {}
-for word in sentence:
-    if word not in words:
-        words[word] = 0
-    words[word] = words[word] + 1
-max_word = ''
-max_count = 0
-for key in words:
-    if len(key) == 7:
-        if words[key] > max_count:
-            max_count = words[key]
-            max_word = key
-print(max_count,max_word)
+
