@@ -16,7 +16,7 @@ def hello2(s): # s - parameter name
 hello2("Yash")  # "Yash" - parameter value
 hello2("Siya")  
 
-def hello3(s,n):
+def hello3(s,n): # this function can take 2 parameter as input
     greeting = "Hello {} ".format(s)
     print(greeting*n)
 
