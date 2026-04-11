@@ -25,11 +25,15 @@ Small problem-solving exercises such as:
 Data structures and algorithms practice.
 
 ### Projects 
-Project Allocation System
-Backend REST API using Flask
+1.Project Allocation System:
+  Backend REST API using Flask
+  link:
+     https://github.com/yashrocksraj/project-allocation-system
 
-link:
-https://github.com/yashrocksraj/project-allocation-system
+2.Sentiment Classifier:
+  link:
+     https://github.com/yashrocksraj/python-learning/tree/main/projects/Sentiment_classifier 
+
 
 ## Goal
 
