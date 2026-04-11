@@ -11,15 +11,15 @@
 # Problem 2
 # Read CSV file using DictReader
 
-# import csv
-# with open("python_basics/program_files/olympics.txt","r") as f:
-#    reader = csv.DictReader(f)
-#    count = 0
-#    for row in reader:
-#      if row["Team"] == "China":
-#         print(f"{row["Name"]} is from China")
-#         count+=1
-# print("Total Players from China:",count)   
+import csv
+with open("python_basics/program_files/olympics.txt","r") as f:
+   reader = csv.DictReader(f)
+   count = 0
+   for row in reader:
+     if row["Team"] == "China":
+        print(f"{row["Name"]} is from China")
+        count+=1
+print("Total Players from China:",count)   
 #----------------#----------------#
 # Problem 3
 # Count medals from file     
@@ -43,10 +43,8 @@ with open("python_basics/program_files/olympics.txt","r") as f:
    
    print(f"Total medals:{total_medals}")      
 # ----------------#----------------#
-
-# Problem 5
+# Problem 4
 # Find Most Frequent medal
-
 import csv
 with open("python_basics/program_files/olympics.txt","r") as f:
    reader = csv.DictReader(f)

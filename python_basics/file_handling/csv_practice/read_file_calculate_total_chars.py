@@ -1,4 +1,4 @@
-outfile = open("introduction_text.txt","r")
+outfile = open("C:\Python-learning\python_basics\program_files\introduction_text.txt","r")
 content = outfile.readlines() 
 print(content)
 three = []

@@ -30,5 +30,5 @@ for ch in letters:
 print("'a' count :",letters_count['a'])      
 # #----------------------------#  
 
-
+f.close()
 

@@ -76,7 +76,7 @@ for num in arr:
     elif num < second_smallest and num != smallest:
         second_smallest = num
 if second_smallest == float('inf'):
-    print("No second Smallest")
+    print("No second smallest")
 else:            
   print(second_smallest) 
 #------------------#-------------------#

@@ -5,5 +5,5 @@ words = sentence.split()
 word_count = {}
 for word in words:
     count_word = sentence.count(word)
-    word_count[word] =  count_word
+    word_count[word] = count_word
 print(word_count)    

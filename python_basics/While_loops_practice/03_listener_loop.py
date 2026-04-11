@@ -8,26 +8,26 @@
 
 # Problem 2 - keep check on items purchased from the and  print their price/item ,
 # total price of all items and average price per items"
-# def checkout():
-#     total = 0
-#     count = 0
-#     moreItems = True
-#     while moreItems:
-#         price = float(input('Enter price of item (0 when done): '))
-#         if price < 0:
-#             print("Please enter valid price")
-#         elif price != 0:
-#             count = count + 1
-#             total = total + price
-#             print('Subtotal: $', total)
-#         else:
-#             moreItems = False
-#     average = total / count
-#     print('Total items:', count)
-#     print('Total $', total)
-#     print('Average price per item: $', average)
+def checkout():
+    total = 0
+    count = 0
+    moreItems = True
+    while moreItems:
+        price = float(input('Enter price of item (0 when done): '))
+        if price < 0:
+            print("Please enter valid price")
+        elif price != 0:
+            count = count + 1
+            total = total + price
+            print('Subtotal: $', total)
+        else:
+            moreItems = False
+    average = total / count
+    print('Total items:', count)
+    print('Total $', total)
+    print('Average price per item: $', average)
 
-# checkout()
+checkout()
 
 
 # Problem 3 validating Input get yes or no message
