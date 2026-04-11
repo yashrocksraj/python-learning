@@ -18,10 +18,10 @@ sorted_weather = sorted(weather, key=lambda w: (w, weather[w]['temp']))
 
 # Problem 3
 # Sort states on the basis of the length of the first city name.
-# states = {"Minnesota": ["St. Paul", "Minneapolis", "Saint Cloud", "Stillwater"],
-#           "Michigan": ["Ann Arbor", "Traverse City", "Lansing", "Kalamazoo"],
-#           "Washington": ["Seattle", "Tacoma", "Olympia", "Vancouver"]}
-# print(sorted(states,key=lambda state:len(states[state][0])))
+states = {"Minnesota": ["St. Paul", "Minneapolis", "Saint Cloud", "Stillwater"],
+          "Michigan": ["Ann Arbor", "Traverse City", "Lansing", "Kalamazoo"],
+          "Washington": ["Seattle", "Tacoma", "Olympia", "Vancouver"]}
+print(sorted(states,key=lambda state:len(states[state][0])))
 
 # Problem 4
 # Sort above States on the basis of cities with more names with letter "S".
