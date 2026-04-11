@@ -11,7 +11,9 @@ Basic Python concepts and practice programs:
 - tuples
 - strings
 - functions
-- file handlib
+- file handling
+- Nested data structures
+- json module
 
 ### problem_solving
 Small problem-solving exercises such as:
